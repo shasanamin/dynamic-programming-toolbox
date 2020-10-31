@@ -1,11 +1,11 @@
-function [route, cost] = shortestpath(A, method)
-% shortestpath Using Label Correcting Algorithm to solve shortest path 
+function [route, cost] = shortestPath(A, method)
+% shortestPath Using Label Correcting Algorithm to solve shortest path 
 % problem from node 1 to N
 %   Input:
 %       - A: NxN matrix s.t. A_i_j >= 0 is distance from i to j,
 %       while A_i_j = -1 means absence of link
 %       - method: flag to indicate the solution method to select nodes from OPEN 
-%       - with available methods being 1 (FIFO), 2 (LIFO), 3 (Minimum Label)
+%       with available methods being 1 (FIFO), 2 (LIFO), 3 (Minimum Label)
 %   Output:
 %       - route: sequence of nodes in shortest path starting from 1 and
 %       terminating at N

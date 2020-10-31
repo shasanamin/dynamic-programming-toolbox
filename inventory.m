@@ -1,6 +1,6 @@
 function [S] = inventory(Bmin, Bmax, wmax, q, p, h, c, T)
-% inventory Compute optimal inventory thresholds in a setup where demand
-% i.e. w_t only takes on integer values. 
+%inventory Compute optimal inventory thresholds in a setup where demand
+%i.e., w_t only takes on integer values
 %   Input:
 %       - Bmin: minimum possible inventory level
 %       - Bmax: maximum possible inventory level

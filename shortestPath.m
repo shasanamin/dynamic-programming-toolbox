@@ -1,6 +1,6 @@
 function [route, cost] = shortestPath(A, method)
-% shortestPath Using Label Correcting Algorithm to solve shortest path 
-% problem from node 1 to N
+%shortestPath Using Label Correcting Algorithm to solve shortest path 
+%problem from node 1 to N
 %   Input:
 %       - A: NxN matrix s.t. A_i_j >= 0 is distance from i to j,
 %       while A_i_j = -1 means absence of link

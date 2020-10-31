@@ -1,6 +1,6 @@
 function [route] = optTrajectory(L, LS, LT)
-% Dynamic Programming based function to compute minimum cost trajectory
-% from a starting node S to a terminal node T
+%optTrajectory Dynamic Programming based function to compute minimum cost trajectory
+%from a starting node S to a terminal node T
 %   Input:
 %       - L: a 3-D matrix s.t. L(i,j,k) is cost from node i to j at stage k
 %       - LS: vector expressing cost from start node S in first stage

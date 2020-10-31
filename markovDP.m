@@ -1,5 +1,5 @@
 function [J0, mu0] = markovDP(P,g,gT,T)
-%markovDP Generic DP solver for finite state Markov chains
+%markovDP Generic DP solver for finite-state Markov chains
 %   Input:
 %       - P: a cell matrix (P{1}, P{2}, ..., P{M}), where M is the number 
 %       of control actions, and each P{m} is an NxN probability transition 
